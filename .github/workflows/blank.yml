@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
         steps:
-          name: Most used
+        - name: Most used
           uses: lowlighter/metrics@latest
           with:
             filename: metrics.plugin.languages.svg
